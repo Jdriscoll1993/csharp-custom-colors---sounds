@@ -2,14 +2,9 @@ using System;
 
 namespace Garage
 {
-    public class Zero : Vehicle, IChargeable
+    public class Zero : ElectricVehicle
     {  // Electric motorcycle
-        public double BatteryKWh { get; set; }
 
-        public void ChargeBattery()
-        {
-            Console.WriteLine("Charging my Zero");
-        }
         public override void Drive()
         {
             System.Console.WriteLine($"Im driving {MainColor} so fast in my zoom zoom");

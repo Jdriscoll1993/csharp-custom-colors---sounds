@@ -1,9 +1,9 @@
 namespace Garage
 {
-    public interface IFueable
+    public interface IFuelable
     {
-        void RefuelTank();
         double FuelCapacity { get; set; }
+        void RefuelTank();
 
 
     }
